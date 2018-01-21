@@ -39,7 +39,7 @@ class ExportController extends Controller
             if (empty($Ids)) {
                 throw new \Exception("No Id's selected");
             }
-        // error_log("data: ".var_export($Ids, true));
+
             $students = Students::find($Ids);
             $result = $students->toArray();
             // error_log("result: ".var_export($result, true));

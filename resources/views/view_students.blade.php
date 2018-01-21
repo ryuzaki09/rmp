@@ -66,8 +66,8 @@
                 <div  style='margin: 10px;  text-align: left'>
                     {{ csrf_field() }}
                     <input type="button" name="selectAll" value="Select All" />
-                    <input type="button" name="exportCourses" value="Export Courses" />
-                    <input type="submit" name="export" value="Export Students"/>
+                    <input type="button" name="exportCourses" value="Export All Courses" />
+                    <input type="submit" name="export" value="Export Selected Students"/>
                 </div>
             </div>
 
